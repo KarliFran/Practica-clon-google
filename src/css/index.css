@@ -64,10 +64,13 @@ li {
     padding-left: 1.75rem;
     outline: none;
     background: transparent;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.search-bar:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .btn-primary:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    border: 1px solid #dadce0;
 }
 .main-buttons{
     padding: 1rem;
@@ -79,9 +82,10 @@ li {
     cursor: pointer;
     background: transparent;
     box-shadow: none;
-    border: 1px solid #CDD0CB;
-    border-radius: 0.25rem;
-    color: #605A56;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
 }
 /*FOOTER*/
 footer {
